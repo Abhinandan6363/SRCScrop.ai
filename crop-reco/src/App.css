@@ -1,0 +1,92 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+
+/* ================================
+   Fertilizer Suggestion Section
+   ================================ */
+
+.fert-box {
+  margin-top: 20px;
+  padding: 20px;
+  background: #f8fafc; /* soft gray-blue */
+  border-radius: 12px;
+  border: 1px solid #dce7f5;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.06);
+}
+
+/* Title of the section */
+.fert-title {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 15px;
+  color: #1d4ed8; /* blue */
+  border-left: 4px solid #1d4ed8;
+  padding-left: 10px;
+}
+
+/* Individual fertilizer card */
+.fert-card {
+  background: #ffffff;
+  border-radius: 10px;
+  padding: 15px;
+  margin-bottom: 12px;
+  border: 1px solid #e5eaf3;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.05);
+  transition: 0.2s ease-in-out;
+}
+
+.fert-card:hover {
+  transform: translateX(6px);
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.08);
+}
+
+/* Text inside fertilizer cards */
+.fert-card p {
+  margin: 4px 0;
+  font-size: 15px;
+  color: #333;
+}
+
+/* Bold labels */
+.fert-card strong {
+  color: #1e293b; /* dark slate */
+}
